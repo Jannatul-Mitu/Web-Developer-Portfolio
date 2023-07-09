@@ -31,8 +31,7 @@ nav{
 }
 nav h3{
     color: #181818;
-    font-family: Open Sans;
-    font-size: 24px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -51,7 +50,6 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color: var(--dark-02, #474747);
-    font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -82,7 +80,6 @@ nav ul li a{
 }
 .inner-banner h3{
     color: var(--dark-02, #474747);
-    font-family: Open Sans;
     font-size: 26px;
     font-weight: 600;
     line-height: 1.2em;
@@ -90,7 +87,6 @@ nav ul li a{
 }
 .inner-banner h1{
     color: var(--dark-01, #181818);
-    font-family: Open Sans;
     font-size: 45px;
     font-weight: 900;
     line-height: 1.2em;
@@ -99,7 +95,6 @@ nav ul li a{
 .inner-banner p{
     width: 100%;
     color: var(--dark-03, #757575);
-    font-family: Open Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.7em;
@@ -151,8 +146,7 @@ nav ul li a{
 .inner-about h3{
     color: var(--dark-01, #181818);
     text-align: center;
-    font-family: Open Sans;
-    font-size: 35px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 1.2em;
     margin-top: 80px;
@@ -164,7 +158,6 @@ nav ul li a{
     color: #757575;
     size: 30px;
     text-align: center;
-    font-family: Open Sans;
     font-weight: 400;
     line-height: 1.7em;
 }
@@ -178,7 +171,6 @@ nav ul li a{
 .inner-about .contact p{
     color: #757575;
     text-align: center;
-    font-family: Open Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.7em;
@@ -198,15 +190,13 @@ nav ul li a{
 .question .inner-question h3{
     color: var(--dark-01, #181818);
     text-align: center;
-    font-family: Open Sans;
-    font-size: 35px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 1.2em;
 }
 .question .inner-question p{
     color: var(--dark-03, #757575);
     text-align: center;
-    font-family: Open Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.7em;
@@ -223,7 +213,7 @@ nav ul li a{
     width: 267px;
     height: 320px;
     padding: 20px 20px 40px;
-    margin: 20px 10px 60px;
+    margin: 20px 10px 0px;
     border-radius: 5px;
     background: #fff;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -246,4 +236,119 @@ nav ul li a{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.7em;
+}
+.resume{
+    width: 100%;
+    padding: 20px 0px 80px;
+    margin: 0px 80px 0px 0px;
+}
+
+.inner-resume{
+    width: 100%;
+    text-align: center;
+}
+
+.inner-resume h3{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.inner-resume .text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.inner-resume .text .left-text{
+    width: 50%;
+    padding: 20px 10px 0px;
+    margin: 0px 0px 0px 140px;
+}
+
+.inner-resume .text .left-text h4{
+    color: var(--dark-02, #474747);
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.inner-resume .text .left-text h5{
+    color: var(--dark-02, #474747);
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+.inner-resume .text .left-text h6{
+    color: var(--dark-02, #474747);
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.inner-resume .text .left-text p{
+    color: var(--dark-02, #474747);
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+
+.inner-resume .text .right-text{
+    width: 50%; 
+    padding: 20px 10px 0px;
+    margin: 0px 140px 0px 0px;  
+}
+
+.inner-resume .text .right-text h4{
+    color: var(--dark-02, #474747);
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.inner-resume .text .right-text h5{
+    color: var(--dark-02, #474747);
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+.inner-resume .text .right-text h6{
+    color: var(--dark-02, #474747);
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.inner-resume .text .right-text p{
+    color: var(--dark-02, #474747);
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+
+.inner-resume .btn-primary{
+    margin-top: 20px;
 }
